@@ -437,4 +437,9 @@
         <field>Account.Alpha_checkbox__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Big_checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
 </Profile>
