@@ -128,16 +128,20 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
+        <customTabListAdditionalFields>AddressType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
         <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
-        <customTabListAdditionalFields>VisitorAddress</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>AddressType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Parent</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>VisitorAddress</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AddressType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Parent</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>VisitorAddress</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>AddressType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>VisitorAddress</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

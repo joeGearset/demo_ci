@@ -130,14 +130,30 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
-        <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
-        <customTabListAdditionalFields>VisitorAddress</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>VisitorAddress</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>VisitorAddress</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>VisitorAddress</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Severity</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CreatedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Severity</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CreatedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Category</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Severity</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Priority</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Severity</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
